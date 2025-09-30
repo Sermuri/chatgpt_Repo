@@ -74,7 +74,7 @@ class SpeechToTextApp:
 
         self._is_transcribing = active
         if active:
-            self._active = False
+            self._active = True
         self._refresh_view()
 
     def _handle_tray_toggle(self, desired_state: bool) -> None:
