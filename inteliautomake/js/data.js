@@ -76,36 +76,21 @@ Ofrezco soluciones personalizadas que integran inteligencia artificial, automati
 // Projects Data
 const projects = [
     {
-        icon: 'music',
-        title: 'Música con IA',
-        description: 'Composiciones únicas generadas por IA',
-        fullDescription: `La música generada por IA representa una revolución en la creación musical,
-        combinando algoritmos avanzados con creatividad artificial.`,
-        media: {
-            type: 'soundcloud',
-            url: 'https://soundcloud.com/sergio-murillo-870692329/sets/ia-sounds-by-sergio-murillo'
-        }
+        icon: 'users',
+        title: 'Empleados Virtuales',
+        description: 'Suite de agentes digitales para ventas, soporte y backoffice',
+        fullDescription: `Nuestros empleados virtuales combinan inteligencia artificial conversacional con automatización de procesos para operar 24/7 en cualquier canal. Diseñamos cada rol a medida según tus datos, tus integraciones y los resultados que buscas.`
     },
     {
-        icon: 'image',
-        title: 'Imágenes Generativas',
-        description: 'Arte y diseño creado por IA',
-        fullDescription: `La generación de imágenes por IA permite crear contenido visual único
-        y personalizado para diferentes necesidades.`,
-        media: {
-            type: 'carousel',
-            totalImages: 10
-        }
+        icon: 'merge',
+        title: 'Integraciones 8K+',
+        description: 'Conectamos Agentics a tu ecosistema tecnológico',
+        fullDescription: `Integramos más de 8.000 aplicaciones empresariales. Conectamos CRMs, ERPs, plataformas de mensajería y datalakes para que tus agentes digitales trabajen con información precisa y actualizada.`
     },
     {
-        icon: 'video',
-        title: 'Video con IA',
-        description: 'Contenido audiovisual generado por IA',
-        fullDescription: `La producción de video con IA revoluciona la creación de contenido audiovisual,
-        ofreciendo nuevas posibilidades creativas y de producción.`,
-        media: {
-            type: 'youtube',
-            url: 'https://youtu.be/aV1dAqibLwc'
-        }
+        icon: 'sparkles',
+        title: 'Automatización Inteligente',
+        description: 'Flujos personalizados basados en tus datos',
+        fullDescription: `Entrenamos los agentes con documentación interna, historiales de tickets y reglas operativas. Ejecutan tareas, disparan recordatorios, generan reportes y notifican al equipo cuando es necesaria la intervención humana.`
     }
 ];
