@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inteliautomake - Soluciones de IA y automatización personalizadas para empresas">
+    <meta name="keywords" content="IA, automatización, inteligencia artificial, asistentes virtuales, optimización de procesos">
+    <title>Consultora IA - Inteliautomake</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body>
+    <div class="app">
+        <!-- Background Elements -->
+        <div class="animated-bg" aria-hidden="true"></div>
+        <div class="tech-grid" aria-hidden="true"></div>
+        <div class="gradient-overlay" aria-hidden="true"></div>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <img src="public/BLogoInteliautomake.png" alt="Inteliautomake" class="logo-image" width="150" height="48">
+                    </div>
+
+                    <nav class="desktop-nav" aria-label="Main navigation">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#proyectos">Proyectos</a>
+                        <a href="#" class="contact-trigger">Contacto</a>
+                        <a href="https://calendly.com/sermuri/primer-encuentro" target="_blank" rel="noopener noreferrer" class="schedule-btn">
+                            <i data-lucide="calendar"></i>
+                            <span>Agendar</span>
+                        </a>
+                    </nav>
+
+                    <button class="mobile-menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu">
+                        <i data-lucide="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+            <nav class="mobile-nav" aria-label="Mobile navigation">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#" class="contact-trigger">Contacto</a>
+                <a href="https://calendly.com/sermuri/primer-encuentro" target="_blank" rel="noopener noreferrer" class="schedule-btn">
+                    <i data-lucide="calendar"></i>
+                    <span>Agendar</span>
+                </a>
+            </nav>
+        </div>
+
+        <main>
+            <!-- Hero Section -->
+            <section id="inicio" class="hero">
+                <div class="video-container">
+                    <img src="public/images/hero.jpg" alt="Fondo IA" class="hero-placeholder"/>
+<video class="hero-video" playsinline muted loop preload="auto">
+                        <source src="public/videos/IA1.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay"></div>
+                </div>
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="gradient-text">Automatización Inteligente para tu Negocio</h1>
+                        <p>Transformamos tu empresa con soluciones de IA y automatización personalizadas.</p>
+                        <div class="hero-buttons">
+                            <button class="primary-btn contact-trigger">Empezar Ahora</button>
+                            <a href="https://calendly.com/sermuri/primer-encuentro" target="_blank" rel="noopener noreferrer" class="secondary-btn">
+                              Agendar Consulta
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Services Section -->
+            <section id="servicios" class="services" style="text-align: center; padding: 50px 0;">
+                <div class="container">
+                    <h2 style="margin-bottom: 10px;">Pondremos IA a trabajar en tus proyectos</h2>
+                    <p style="font-size: 1.2em; color: #666;">Inspírate con algunas de nuestras soluciones de IA ya implementadas</p>
+                    <div class="services-grid" id="services-grid" style="margin-top: 30px;"></div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="proyectos" class="projects">
+                <div class="container">
+                    <h2>Algunos Proyectos Multimedia en curso</h2>
+                    <div class="projects-grid" id="projects-grid"></div>
+                    
+                    <!-- Musician Call to Action -->
+                    <div class="musician-cta">
+                        <p class="cta-text">Si eres cantante, ¡contáctame URGENTE! Te encantará formar parte de este proyecto</p>
+                        <button class="cta-button contact-trigger pulse-animation">¡Quiero participar!</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <img src="/BLogoInteliautomake.png" alt="Inteliautomake" class="footer-logo" width="150" height="48">
+                        <p class="gradient-text footer-tagline">
+                            Transformamos tu empresa con soluciones de IA y automatización personalizadas. 
+                            Optimiza tus procesos y potencia tu crecimiento con tecnología de vanguardia.
+                        </p>
+
+                        <div class="contact-links">
+                            <h4>Contacto</h4>
+                            <div class="contact-grid">
+                                <a href="https://wa.me/5492234254491" target="_blank" rel="noopener noreferrer" class="contact-link whatsapp">
+                                    <i data-lucide="message-circle"></i>
+                                    <span>Chat Directo</span>
+                                </a>
+                                <a href="mailto:info@inteliautomake.com" class="contact-link email">
+                                    <i data-lucide="mail"></i>
+                                    <span>info@inteliautomake.com</span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/sergio-murillo-automatizaciones-make-zapier-inteliautomake/" target="_blank" rel="noopener noreferrer" class="contact-link linkedin">
+                                    <i data-lucide="linkedin"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="https://www.instagram.com/inteliautomake" target="_blank" rel="noopener noreferrer" class="contact-link instagram">
+                                    <i data-lucide="instagram"></i>
+                                    <span>#inteliautomake</span>
+                                </a>
+                                <a href="https://www.youtube.com/@inteliautomake" target="_blank" rel="noopener noreferrer" class="contact-link youtube">
+                                    <i data-lucide="youtube"></i>
+                                    <span>YouTube</span>
+                                </a>
+                                <a href="https://calendly.com/sermuri/primer-encuentro" target="_blank" rel="noopener noreferrer" class="contact-link calendar">
+                                    <i data-lucide="calendar-days"></i>
+                                    <span>Agendar Consulta</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Services Word Cloud -->
+                    <div class="services-cloud">
+                        <h4>Nuestras Soluciones</h4>
+                        <div class="word-cloud" id="word-cloud"></div>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="copyright">
+                    <p>© <span id="current-year"></span> Inteliautomake. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Fixed Action Buttons -->
+        <div class="fixed-actions">  
+            <!-- ElevenLabs Convai Chatbot --> 
+            <div class="action-btn ai-assistant">  
+            <elevenlabs-convai agent-id="EM9pvg1nyXLx2lIVOv5c"></elevenlabs-convai> 
+            <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>  </div>
+            
+            <a href="https://www.linkedin.com/in/sergio-murillo-automatizaciones-make-zapier-inteliautomake/" target="_blank" rel="noopener noreferrer" class="action-btn linkedin" aria-label="LinkedIn">
+                <i data-lucide="linkedin"></i>
+            </a>
+            <a href="https://wa.me/5492234254491" target="_blank" rel="noopener noreferrer" class="action-btn whatsapp" aria-label="WhatsApp">
+                <i data-lucide="message-circle"></i>
+            </a>
+        </div>
+
+        <!-- Contact Form Modal -->
+        <div class="modal" id="contact-modal" aria-hidden="true" role="dialog" aria-labelledby="contact-modal-title">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="contact-modal-title">Contacto</h2>
+                    <button class="close-modal" aria-label="Cerrar">
+                        <i data-lucide="x"></i>
+                    </button>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" name="name" required autocomplete="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required autocomplete="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Celular / Whatsapp</label>
+                        <input type="tel" id="phone" name="phone" required autocomplete="tel">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Cuentame que tienes en mente:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-group captcha-group">
+                        <label for="captcha-input">Verificación de Seguridad</label>
+                        <div class="captcha-container">
+                            <div class="captcha-code" id="captcha-code"></div>
+                            <input type="text" id="captcha-input" placeholder="Ingresa el código" required aria-describedby="captcha-error">
+                            <button type="button" class="refresh-captcha" aria-label="Refrescar código">↻</button>
+                        </div>
+                        <p class="captcha-error" id="captcha-error"></p>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                    <div class="privacy-notice">
+                        <h3>Privacidad y Confidencialidad</h3>
+                        <p>
+                            La información proporcionada en este formulario es estrictamente confidencial y no será compartida con terceros bajo ninguna circunstancia. Su único propósito es permitirnos ponernos en contacto con usted y ofrecerle soluciones adaptadas a sus necesidades. Valoramos su privacidad y nos comprometemos a proteger sus datos de acuerdo con las normativas vigentes.
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Thank You Modal -->
+        <div class="modal" id="thank-you-modal" aria-hidden="true" role="dialog">
+            <div class="modal-content">
+                <p class="thank-you-message">Gracias por contactar, en breve estaré en contacto.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
